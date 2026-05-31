@@ -1,0 +1,119 @@
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.8);
+  backdrop-filter: blur(4px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 100;
+}
+
+.modalContent {
+  background-color: #121212;
+  border: 1px solid #2383f2;
+  border-radius: 8px;
+  padding: 2rem;
+  width: 90%;
+  max-width: 500px;
+  text-align: center;
+  box-shadow: 0 8px 32px 0 #2383f249;
+}
+
+.modalContent img {
+  width: 100%;
+  max-width: 300px;
+  border-radius: 4px;
+  margin: 1.5rem 0;
+}
+
+.modalContent p {
+  margin-bottom: 0.5rem;
+  color: #ccc;
+}
+
+.closeBtn {
+  background-color: #f22323;
+  color: #fff;
+  border: none;
+  padding: 0.8rem 2rem;
+  border-radius: 4px;
+  cursor: pointer;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  margin-top: 0;
+  transition: background-color 0.2s;
+}
+
+.closeBtn:hover {
+  background-color: #c91818;
+}
+
+.loading {
+  color: #fff;
+  text-align: center;
+  font-size: 1.2rem;
+  margin-top: 2rem;
+}
+
+.prices {
+  background-color: #1a1a1a;
+  border-left: 4px solid #2383f2;
+  padding: 1rem;
+  margin: 1.5rem 0;
+  border-radius: 4px;
+  text-align: left;
+}
+
+.prices s {
+  color: #777;
+}
+
+.prices strong {
+  color: #2383f2;
+  font-size: 1.3rem;
+  display: block;
+  margin-top: 0.3rem;
+}
+
+.details {
+  text-align: left;
+  margin-bottom: 1.5rem;
+}
+
+.details p {
+  color: #ddd;
+  margin-bottom: 0.5rem;
+  font-size: 0.95rem;
+}
+
+.details strong {
+  color: #fff;
+}
+
+.actions {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.buyBtn {
+  background-color: #28a745;
+  color: #fff;
+  text-decoration: none;
+  padding: 0.8rem 2rem;
+  border-radius: 4px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  transition: background-color 0.2s;
+  display: flex;
+  align-items: center;
+}
+
+.buyBtn:hover {
+  background-color: #218838;
+}

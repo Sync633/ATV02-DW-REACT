@@ -1,0 +1,53 @@
+.container {
+  padding: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.container h2 {
+  text-align: center;
+  margin-bottom: 2rem;
+  color: #2383f2;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 2rem;
+  align-items: stretch;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+  margin-top: 3rem;
+}
+
+.pagination button {
+  background-color: #2383f2;
+  color: #fff;
+  border: none;
+  padding: 0.8rem 1.5rem;
+  border-radius: 4px;
+  cursor: pointer;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  transition: background-color 0.2s, opacity 0.2s;
+}
+
+.pagination button:hover:not(:disabled) {
+  background-color: #0a54a9;
+}
+
+.pagination button:disabled {
+  background-color: #555;
+  cursor: not-allowed;
+  opacity: 0.5;
+}
+
+.pagination span {
+  font-weight: 600;
+  color: #ccc;
+}

@@ -1,0 +1,58 @@
+.card {
+  background-color: #121212;
+  border: 1px solid #2383f249;
+  border-radius: 8px;
+  padding: 1.5rem;
+  cursor: pointer;
+  transition: transform 0.3s, box-shadow 0.3s;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 24px 0 #2383f249;
+  border-color: #2383f2;
+}
+
+.image {
+  width: 100%;
+  border-radius: 4px;
+  margin-bottom: 1rem;
+}
+
+.card h3 {
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
+}
+
+.card s {
+  color: #777;
+  font-size: 0.9rem;
+}
+
+.card strong {
+  color: #2383f2;
+  font-size: 1.2rem;
+  display: block;
+  margin: 0.5rem 0;
+}
+
+.card button {
+  background-color: #2383f2;
+  color: #fff;
+  border: none;
+  padding: 0.8rem;
+  border-radius: 4px;
+  cursor: pointer;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  margin-top: 1rem;
+  transition: background-color 0.2s;
+}
+
+.card button:hover {
+  background-color: #0a54a9;
+}
